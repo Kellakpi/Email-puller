@@ -28,4 +28,4 @@ for email in emails:
 with open("output.txt", "w") as output: # Create a file with all the emails found.
     for email in sorted(emails):    #Sort the email found in ascending order
         output.write(email + "\n")
-print(f"\nSaved {len(emails)} emails to output.txt. Job is done!") # Print amount of emaiils found, using F string to save time
+print(f"\nSaved {len(emails)} emails to output.txt. Job is done!") # Print amount of emaiils found, using F string to save time.
